@@ -78,6 +78,7 @@ eu = Andre()
 
 - **Jogos em Python** — jogos simples que desenvolvi como projetos pessoais para praticar lógica de programação e
   aprofundar meus conhecimentos na linguagem.
+- **[TrashTime](https://github.com/DexxGomes/TrashTime)** — aplicativo web que acompanha em tempo real a coleta de lixo no centro de Belém, com mapa desenhado em SVG, feito com Vue 3 e Vite.
 
 ### 🎓 Formação
 

@@ -17,8 +17,8 @@
 ### 👨‍💻 Sobre mim
 
 Sou estudante de **Ciência da Computação na UNAMA**, apaixonado por programação, com formação técnica em
-**Redes de Computadores** e conhecimento em **Python, JavaScript, TypeScript, Node.js e React**, além de
-**Arquitetura de Software**. Busco uma oportunidade de **estágio ou início de carreira em tecnologia**, onde eu possa
+**Redes de Computadores** e conhecimento em **Python e JavaScript**. Atualmente estou estudando **TypeScript, Node.js,
+React e Arquitetura de Software** no ONP (O Novo Programador). Busco uma oportunidade de **estágio ou início de carreira em tecnologia**, onde eu possa
 aplicar o que aprendi em cursos e projetos pessoais e continuar evoluindo como desenvolvedor.
 
 ```python
@@ -27,11 +27,10 @@ class Andre:
         self.nome = "André Luiz Gomes Menezes"
         self.cidade = "Belém/PA"
         self.curso = "Ciência da Computação — UNAMA (conclusão prevista: 2028)"
-        self.linguagens = ["Python", "JavaScript", "TypeScript"]
-        self.back_end = ["Node.js"]
-        self.front_end = ["React", "HTML", "CSS"]
+        self.linguagens = ["Python", "JavaScript"]
+        self.web = ["HTML", "CSS"]
         self.banco_de_dados = ["SQL"]
-        self.conhecimentos = ["Arquitetura de Software", "Redes de Computadores"]
+        self.estudando_agora = ["TypeScript", "Node.js", "React", "Arquitetura de Software"]
         self.idiomas = {"Português": "nativo", "Inglês": "avançado"}
         self.objetivo = "Estágio ou início de carreira em tecnologia"
 
@@ -81,16 +80,19 @@ eu = Andre()
 
 ### 📜 Certificações
 
-- 🔷 TypeScript — ONP (O Novo Programador)
-- 🟢 Node.js — ONP (O Novo Programador)
-- ⚛️ React.js — ONP (O Novo Programador)
-- 🏗️ Arquitetura de Software — ONP (O Novo Programador)
 - 🎮 CodeCombat – Coding Games to Learn Python and JavaScript
 - 🐍 Fundamentos de Python 1
 - 🖥️ IT Essentials: PC Hardware and Software
 - 📐 Curso Completo AutoCAD 2D e 3D – Do Zero ao Avançado
 
 <sub>📂 Alguns certificados estão no repositório [Certificado-jogo-e-curso](https://github.com/DexxGomes/Certificado-jogo-e-curso).</sub>
+
+**📚 Em andamento — ONP (O Novo Programador)**
+
+- 🔷 TypeScript
+- 🟢 Node.js
+- ⚛️ React.js
+- 🏗️ Arquitetura de Software
 
 ### 🌎 Idiomas
 

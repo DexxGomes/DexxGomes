@@ -17,8 +17,9 @@
 ### 👨‍💻 Sobre mim
 
 Sou estudante de **Ciência da Computação na UNAMA**, apaixonado por programação, com formação técnica em
-**Redes de Computadores** e conhecimento em **Python**. Busco uma oportunidade de **estágio ou início de carreira em
-tecnologia**, onde eu possa aplicar o que aprendi em cursos e projetos pessoais e continuar evoluindo como desenvolvedor.
+**Redes de Computadores** e conhecimento em **Python, JavaScript, TypeScript, Node.js e React**, além de
+**Arquitetura de Software**. Busco uma oportunidade de **estágio ou início de carreira em tecnologia**, onde eu possa
+aplicar o que aprendi em cursos e projetos pessoais e continuar evoluindo como desenvolvedor.
 
 ```python
 class Andre:
@@ -26,9 +27,11 @@ class Andre:
         self.nome = "André Luiz Gomes Menezes"
         self.cidade = "Belém/PA"
         self.curso = "Ciência da Computação — UNAMA (conclusão prevista: 2028)"
-        self.linguagens = ["Python", "JavaScript"]
-        self.web = ["HTML", "CSS"]
+        self.linguagens = ["Python", "JavaScript", "TypeScript"]
+        self.back_end = ["Node.js"]
+        self.front_end = ["React", "HTML", "CSS"]
         self.banco_de_dados = ["SQL"]
+        self.conhecimentos = ["Arquitetura de Software", "Redes de Computadores"]
         self.idiomas = {"Português": "nativo", "Inglês": "avançado"}
         self.objetivo = "Estágio ou início de carreira em tecnologia"
 
@@ -38,14 +41,25 @@ eu = Andre()
 
 ### 🛠️ Tecnologias
 
+**Linguagens**
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
   <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
 </p>
+
+**Back-end e front-end**
 <p>
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+</p>
+
+**Outros conhecimentos**
+<p>
+  <img src="https://img.shields.io/badge/%F0%9F%8F%97%EF%B8%8F_Arquitetura_de_Software-6D28D9?style=for-the-badge" alt="🏗️ Arquitetura de Software" />
   <img src="https://img.shields.io/badge/Redes_de_Computadores-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Redes de Computadores" />
   <img src="https://img.shields.io/badge/Hardware_e_Manuten%C3%A7%C3%A3o-555555?style=for-the-badge" alt="Hardware e Manutenção" />
   <img src="https://img.shields.io/badge/AutoCAD_2D_e_3D-E51050?style=for-the-badge&logo=autodesk&logoColor=white" alt="AutoCAD 2D e 3D" />
@@ -67,6 +81,10 @@ eu = Andre()
 
 ### 📜 Certificações
 
+- 🔷 TypeScript — ONP (O Novo Programador)
+- 🟢 Node.js — ONP (O Novo Programador)
+- ⚛️ React.js — ONP (O Novo Programador)
+- 🏗️ Arquitetura de Software — ONP (O Novo Programador)
 - 🎮 CodeCombat – Coding Games to Learn Python and JavaScript
 - 🐍 Fundamentos de Python 1
 - 🖥️ IT Essentials: PC Hardware and Software

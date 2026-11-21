@@ -18,7 +18,7 @@
 
 Sou estudante de **Ciência da Computação na UNAMA**, apaixonado por programação, com formação técnica em
 **Redes de Computadores** e conhecimento em **Python e JavaScript**. Atualmente estou estudando **TypeScript, Node.js,
-React e Arquitetura de Software** no ONP (O Novo Programador). Busco uma oportunidade de **estágio ou início de carreira em tecnologia**, onde eu possa
+React, Arquitetura de Software e desenvolvimento com agentes de IA** no ONP (O Novo Programador). Busco uma oportunidade de **estágio ou início de carreira em tecnologia**, onde eu possa
 aplicar o que aprendi em cursos e projetos pessoais e continuar evoluindo como desenvolvedor.
 
 ```python
@@ -30,7 +30,8 @@ class Andre:
         self.linguagens = ["Python", "JavaScript"]
         self.web = ["HTML", "CSS"]
         self.banco_de_dados = ["SQL"]
-        self.estudando_agora = ["TypeScript", "Node.js", "React", "Arquitetura de Software"]
+        self.estudando_agora = ["TypeScript", "Node.js", "React", "Arquitetura de Software",
+                                "Agentes de IA (Claude Code, Google Antigravity, MCP)"]
         self.idiomas = {"Português": "nativo", "Inglês": "avançado"}
         self.objetivo = "Estágio ou início de carreira em tecnologia"
 
@@ -54,6 +55,15 @@ eu = Andre()
 <p>
   <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+</p>
+
+**IA e agentes** <sub>(em estudo)</sub>
+<p>
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity" />
+  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP" />
+  <img src="https://img.shields.io/badge/Spec--Driven_Development-0F766E?style=for-the-badge" alt="Spec-Driven Development" />
+  <img src="https://img.shields.io/badge/Engenharia_de_Prompt-7C3AED?style=for-the-badge" alt="Engenharia de Prompt" />
 </p>
 
 **Outros conhecimentos**
@@ -93,6 +103,9 @@ eu = Andre()
 - 🟢 Node.js
 - ⚛️ React.js
 - 🏗️ Arquitetura de Software
+- 🤖 Inteligência Artificial — desenvolvimento de software com agentes de IA: Claude Code, Google Antigravity,
+  MCP (Model Context Protocol), Spec-Driven Development, Harness Engineering, engenharia de prompt e contexto,
+  revisão de código gerado por IA e fluxos de trabalho com agentes
 
 ### 🌎 Idiomas
 

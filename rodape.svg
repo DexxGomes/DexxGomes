@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="170" viewBox="0 0 1280 170" role="img" aria-label="Obrigado pela visita!">
+  <title>Obrigado pela visita!</title>
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.6" stop-color="#151A3A"/>
+      <stop offset="1" stop-color="#3B1E6E"/>
+    </linearGradient>
+    <clipPath id="fc"><rect width="1280" height="170" rx="28"/></clipPath>
+  </defs>
+  <style>
+    .onda { animation: mar linear infinite; }
+    @keyframes mar { to { transform: translateX(-1280px); } }
+    .t { animation: brilha 3s ease-in-out infinite; }
+    @keyframes brilha { 0%,100% { opacity: .75; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .onda, .t { animation: none; } }
+  </style>
+  <g clip-path="url(#fc)">
+    <rect width="1280" height="170" fill="url(#fbg)"/>
+    <g class="onda" style="animation-duration:12s"><path d="M0 95 Q160.0 85 320.0 95 Q480.0 105 640.0 95 Q800.0 85 960.0 95 Q1120.0 105 1280.0 95 Q1440.0 85 1600.0 95 Q1760.0 105 1920.0 95 Q2080.0 85 2240.0 95 Q2400.0 105 2560.0 95 L2560 170 L0 170 Z" fill="#2DD4BF" fill-opacity="0.07"/></g>
+    <g class="onda" style="animation-duration:7s"><path d="M0 120 Q106.75 112 213.5 120 Q320.25 128 427.0 120 Q533.75 112 640.5 120 Q747.25 128 854.0 120 Q960.75 112 1067.5 120 Q1174.25 128 1281.0 120 Q1387.75 112 1494.5 120 Q1601.25 128 1708.0 120 Q1814.75 112 1921.5 120 Q2028.25 128 2135.0 120 Q2241.75 112 2348.5 120 Q2455.25 128 2562.0 120 L2560 170 L0 170 Z" fill="#8B5CF6" fill-opacity="0.12"/></g>
+    <text class="t" x="640.0" y="78" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#FFFFFF">Obrigado pela visita! 🚀</text>
+    <text x="640.0" y="118" text-anchor="middle" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="20" fill="#2DD4BF" fill-opacity=".8">exit(0)</text>
+  </g>
+</svg>

@@ -1,0 +1,91 @@
+<p align="center">
+  <img src="./banner.svg" width="100%" alt="André Luiz Gomes Menezes — Desenvolvedor | Estudante de Ciência da Computação" />
+</p>
+
+<p align="center">
+  <img src="./digitando.svg" alt="Desenvolvedor Python e JavaScript · Estudante de Ciência da Computação · Técnico em Redes de Computadores · Em busca de estágio em tecnologia" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/andr%C3%A9menezes"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:andrelgmenezes02@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail: andrelgmenezes02@gmail.com" /></a>
+  <img src="https://img.shields.io/badge/%F0%9F%93%8D_Bel%C3%A9m_--_PA-151A3A?style=for-the-badge" alt="Belém - PA" />
+</p>
+
+---
+
+### 👨‍💻 Sobre mim
+
+Sou estudante de **Ciência da Computação na UNAMA**, apaixonado por programação, com formação técnica em
+**Redes de Computadores** e conhecimento em **Python**. Busco uma oportunidade de **estágio ou início de carreira em
+tecnologia**, onde eu possa aplicar o que aprendi em cursos e projetos pessoais e continuar evoluindo como desenvolvedor.
+
+```python
+class Andre:
+    def __init__(self):
+        self.nome = "André Luiz Gomes Menezes"
+        self.cidade = "Belém/PA"
+        self.curso = "Ciência da Computação — UNAMA (conclusão prevista: 2028)"
+        self.linguagens = ["Python", "JavaScript"]
+        self.web = ["HTML", "CSS"]
+        self.banco_de_dados = ["SQL"]
+        self.idiomas = {"Português": "nativo", "Inglês": "avançado"}
+        self.objetivo = "Estágio ou início de carreira em tecnologia"
+
+
+eu = Andre()
+```
+
+### 🛠️ Tecnologias
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Redes_de_Computadores-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Redes de Computadores" />
+  <img src="https://img.shields.io/badge/Hardware_e_Manuten%C3%A7%C3%A3o-555555?style=for-the-badge" alt="Hardware e Manutenção" />
+  <img src="https://img.shields.io/badge/AutoCAD_2D_e_3D-E51050?style=for-the-badge&logo=autodesk&logoColor=white" alt="AutoCAD 2D e 3D" />
+</p>
+
+### 🎮 Projetos
+
+- **Jogos em Python** — jogos simples que desenvolvi como projetos pessoais para praticar lógica de programação e
+  aprofundar meus conhecimentos na linguagem.
+
+### 🎓 Formação
+
+| Curso | Instituição | Situação |
+|---|---|---|
+| Bacharelado em Ciência da Computação | UNAMA · Belém/PA | 📚 Cursando · conclusão prevista para 2028 |
+| Técnico em Eletrotécnica | NEPAM · Belém/PA | ✅ Concluído em 2026 |
+| Técnico em Redes de Computadores | Escola SESI SENAI · Belém/PA | ✅ Concluído em 2024 |
+| Advanced Course in English | ASLAN Idiomas · Belém/PA | ✅ Concluído em 2022 |
+
+### 📜 Certificações
+
+- 🎮 CodeCombat – Coding Games to Learn Python and JavaScript
+- 🐍 Fundamentos de Python 1
+- 🖥️ IT Essentials: PC Hardware and Software
+- 📐 Curso Completo AutoCAD 2D e 3D – Do Zero ao Avançado
+
+<sub>📂 Alguns certificados estão no repositório [Certificado-jogo-e-curso](https://github.com/DexxGomes/Certificado-jogo-e-curso).</sub>
+
+### 🌎 Idiomas
+
+🇧🇷 Português — nativo &nbsp;&nbsp;•&nbsp;&nbsp; 🇺🇸 Inglês — avançado
+
+### 🤝 Competências
+
+`Raciocínio lógico` &nbsp; `Rápido aprendizado` &nbsp; `Comprometimento e responsabilidade`
+
+### 📫 Contato
+
+✉️ [andrelgmenezes02@gmail.com](mailto:andrelgmenezes02@gmail.com) &nbsp;•&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/andr%C3%A9menezes)
+
+<p align="center">
+  <img src="./rodape.svg" width="100%" alt="Obrigado pela visita!" />
+</p>

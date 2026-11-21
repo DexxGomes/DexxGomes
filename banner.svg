@@ -42,38 +42,42 @@
     @keyframes pulsa { 0%,100% { opacity: .3; transform: scale(1); } 50% { opacity: .85; transform: scale(1.045); } }
     .p { opacity: 0; animation-name: sobe2; animation-timing-function: linear; animation-iteration-count: infinite; }
     @keyframes sobe2 { 0% { opacity: 0; transform: translateY(0); } 15% { opacity: var(--o); } 85% { opacity: var(--o); } 100% { opacity: 0; transform: translateY(-480px); } }
+    .h { opacity: 0; animation-name: anda; animation-timing-function: linear; animation-iteration-count: infinite; }
+    @keyframes anda { 0% { opacity: 0; transform: translateX(0); } 8% { opacity: var(--o); } 92% { opacity: var(--o); } 100% { opacity: 0; transform: translateX(-1400px); } }
     .foto-in { opacity: 0; animation: aparece 1s ease-out .1s forwards; }
     @keyframes aparece { to { opacity: 1; } }
     .pisca { animation: pisca 1s steps(1) infinite; }
     @keyframes pisca { 50% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
       .l, .sub, .foto-in { animation: none; fill-opacity: 1; opacity: 1; }
-      .onda, .anel, .pulso, .p, .pisca { animation: none; }
+      .onda, .anel, .pulso, .p, .h, .pisca { animation: none; }
     }
   </style>
   <g clip-path="url(#card)">
     <rect width="1280" height="420" fill="url(#bg)"/>
     <circle cx="1160" cy="60" r="300" fill="url(#glow)"/>
-    <text class="p" x="863" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="22" fill="#A78BFA" style="animation-duration:15.1s;animation-delay:-12.9s;--o:0.18">py</text>
-    <text class="p" x="594" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#2DD4BF" style="animation-duration:10.3s;animation-delay:-5.3s;--o:0.25">[ ]</text>
-    <text class="p" x="710" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#A78BFA" style="animation-duration:10.0s;animation-delay:-5.4s;--o:0.25">;</text>
-    <text class="p" x="863" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#A78BFA" style="animation-duration:13.6s;animation-delay:-8.4s;--o:0.12">&lt;/&gt;</text>
-    <text class="p" x="460" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#67E8F9" style="animation-duration:9.2s;animation-delay:-8.1s;--o:0.25">#</text>
-    <text class="p" x="851" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" fill="#67E8F9" style="animation-duration:13.1s;animation-delay:-2.6s;--o:0.12">{ }</text>
-    <text class="p" x="1078" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#A78BFA" style="animation-duration:9.6s;animation-delay:-6.3s;--o:0.18">( )</text>
-    <text class="p" x="722" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#A78BFA" style="animation-duration:14.3s;animation-delay:-7.3s;--o:0.12">&lt;/&gt;</text>
-    <text class="p" x="810" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#A78BFA" style="animation-duration:9.8s;animation-delay:-2.8s;--o:0.12">{ }</text>
-    <text class="p" x="618" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="22" fill="#A78BFA" style="animation-duration:10.5s;animation-delay:-9.5s;--o:0.18">;</text>
-    <text class="p" x="829" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" fill="#67E8F9" style="animation-duration:9.5s;animation-delay:-6.0s;--o:0.25">&lt;/&gt;</text>
-    <text class="p" x="718" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#2DD4BF" style="animation-duration:11.3s;animation-delay:-10.9s;--o:0.12">0 1</text>
-    <text class="p" x="503" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#A78BFA" style="animation-duration:9.1s;animation-delay:-4.2s;--o:0.18">=&gt;</text>
-    <text class="p" x="592" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#67E8F9" style="animation-duration:12.1s;animation-delay:-2.3s;--o:0.25">js</text>
-    <text class="p" x="792" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#67E8F9" style="animation-duration:9.8s;animation-delay:-4.1s;--o:0.12">py</text>
-    <text class="p" x="711" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="22" fill="#A78BFA" style="animation-duration:16.0s;animation-delay:-0.3s;--o:0.12">js</text>
-    <text class="p" x="990" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="22" fill="#67E8F9" style="animation-duration:9.7s;animation-delay:-9.6s;--o:0.12">{ }</text>
-    <text class="p" x="1191" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#2DD4BF" style="animation-duration:13.3s;animation-delay:-11.0s;--o:0.18">&lt;/&gt;</text>
-    <text class="p" x="613" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" fill="#67E8F9" style="animation-duration:13.1s;animation-delay:-3.2s;--o:0.25">py</text>
-    <text class="p" x="864" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#67E8F9" style="animation-duration:9.9s;animation-delay:-5.8s;--o:0.25">def</text>
+    <text class="h" x="1310" y="48" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#A78BFA" style="animation-duration:30.4s;animation-delay:-26.0s;--o:0.2">01</text>
+    <text class="h" x="1310" y="39" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" fill="#A78BFA" style="animation-duration:29.6s;animation-delay:-23.5s;--o:0.2">&lt;/&gt;</text>
+    <text class="h" x="1310" y="48" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" fill="#A78BFA" style="animation-duration:23.6s;animation-delay:-15.0s;--o:0.14">py</text>
+    <text class="h" x="1310" y="46" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" fill="#A78BFA" style="animation-duration:31.6s;animation-delay:-20.5s;--o:0.26">py</text>
+    <text class="h" x="1310" y="34" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#2DD4BF" style="animation-duration:30.0s;animation-delay:-5.7s;--o:0.14">01</text>
+    <text class="h" x="1310" y="53" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#67E8F9" style="animation-duration:20.4s;animation-delay:-12.0s;--o:0.2">01</text>
+    <text class="h" x="1310" y="50" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#2DD4BF" style="animation-duration:22.8s;animation-delay:-15.1s;--o:0.2">[ ]</text>
+    <text class="h" x="1310" y="54" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#A78BFA" style="animation-duration:23.3s;animation-delay:-5.9s;--o:0.26">01</text>
+    <text class="h" x="1310" y="50" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" fill="#2DD4BF" style="animation-duration:23.5s;animation-delay:-9.4s;--o:0.14">( )</text>
+    <text class="h" x="1310" y="390" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="17" fill="#2DD4BF" style="animation-duration:18.8s;animation-delay:-4.0s;--o:0.14">{ }</text>
+    <text class="h" x="1310" y="393" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#67E8F9" style="animation-duration:22.5s;animation-delay:-1.6s;--o:0.26">js</text>
+    <text class="h" x="1310" y="384" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#2DD4BF" style="animation-duration:27.3s;animation-delay:-8.5s;--o:0.2">{ }</text>
+    <text class="h" x="1310" y="391" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#2DD4BF" style="animation-duration:27.1s;animation-delay:-19.2s;--o:0.14">{ }</text>
+    <text class="h" x="1310" y="379" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#A78BFA" style="animation-duration:23.6s;animation-delay:-13.2s;--o:0.2">[ ]</text>
+    <text class="h" x="1310" y="394" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#67E8F9" style="animation-duration:20.3s;animation-delay:-13.1s;--o:0.26">&lt;/&gt;</text>
+    <text class="h" x="1310" y="390" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#67E8F9" style="animation-duration:23.0s;animation-delay:-19.9s;--o:0.14">py</text>
+    <text class="h" x="1310" y="387" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#2DD4BF" style="animation-duration:30.0s;animation-delay:-11.8s;--o:0.14">py</text>
+    <text class="p" x="1237" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#2DD4BF" style="animation-duration:12.5s;animation-delay:-5.5s;--o:0.14">{ }</text>
+    <text class="p" x="1245" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#2DD4BF" style="animation-duration:12.7s;animation-delay:-0.9s;--o:0.2">01</text>
+    <text class="p" x="1233" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#67E8F9" style="animation-duration:12.8s;animation-delay:-8.0s;--o:0.14">def</text>
+    <text class="p" x="1233" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" fill="#2DD4BF" style="animation-duration:11.9s;animation-delay:-7.5s;--o:0.14">( )</text>
+    <text class="p" x="1210" y="440" font-family="'Courier New', Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#2DD4BF" style="animation-duration:13.9s;animation-delay:-10.3s;--o:0.14">=&gt;</text>
     <g class="onda" style="animation-duration:15s"><path d="M0 350 Q160.0 336 320.0 350 Q480.0 364 640.0 350 Q800.0 336 960.0 350 Q1120.0 364 1280.0 350 Q1440.0 336 1600.0 350 Q1760.0 364 1920.0 350 Q2080.0 336 2240.0 350 Q2400.0 364 2560.0 350 L2560 420 L0 420 Z" fill="#2DD4BF" fill-opacity="0.05"/></g>
     <g class="onda" style="animation-duration:10s"><path d="M0 375 Q106.75 365 213.5 375 Q320.25 385 427.0 375 Q533.75 365 640.5 375 Q747.25 385 854.0 375 Q960.75 365 1067.5 375 Q1174.25 385 1281.0 375 Q1387.75 365 1494.5 375 Q1601.25 385 1708.0 375 Q1814.75 365 1921.5 375 Q2028.25 385 2135.0 375 Q2241.75 365 2348.5 375 Q2455.25 385 2562.0 375 L2560 420 L0 420 Z" fill="#8B5CF6" fill-opacity="0.08"/></g>
     <g class="onda" style="animation-duration:6s"><path d="M0 398 Q80.0 391 160.0 398 Q240.0 405 320.0 398 Q400.0 391 480.0 398 Q560.0 405 640.0 398 Q720.0 391 800.0 398 Q880.0 405 960.0 398 Q1040.0 391 1120.0 398 Q1200.0 405 1280.0 398 Q1360.0 391 1440.0 398 Q1520.0 405 1600.0 398 Q1680.0 391 1760.0 398 Q1840.0 405 1920.0 398 Q2000.0 391 2080.0 398 Q2160.0 405 2240.0 398 Q2320.0 391 2400.0 398 Q2480.0 405 2560.0 398 L2560 420 L0 420 Z" fill="#FFFFFF" fill-opacity="0.06"/></g>

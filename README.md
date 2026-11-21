@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/andr%C3%A9menezes"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/andr%C3%A9menezes"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iNCIgZmlsbD0iI0ZGRkZGRiIvPjxjaXJjbGUgY3g9IjYuNiIgY3k9IjYuNCIgcj0iMS45IiBmaWxsPSIjMEE2NkMyIi8%2BPHJlY3QgeD0iNSIgeT0iOS40IiB3aWR0aD0iMy4yIiBoZWlnaHQ9IjEwIiBmaWxsPSIjMEE2NkMyIi8%2BPHBhdGggZmlsbD0iIzBBNjZDMiIgZD0iTTEwLjMgOS40aDMuMDV2MS40NWMuNDgtLjkgMS42Ni0xLjc1IDMuNC0xLjc1IDMuMTUgMCAzLjc1IDIuMDUgMy43NSA0Ljc1djUuNTVoLTMuMnYtNC45YzAtMS4yLS4wMy0yLjYtMS42LTIuNi0xLjYyIDAtMS44NiAxLjI1LTEuODYgMi41MnY0Ljk4aC0zLjU0eiIvPjwvc3ZnPg==" alt="LinkedIn" /></a>
   <a href="mailto:andrelgmenezes02@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail: andrelgmenezes02@gmail.com" /></a>
   <img src="https://img.shields.io/badge/%F0%9F%93%8D_Bel%C3%A9m_--_PA-151A3A?style=for-the-badge" alt="Belém - PA" />
 </p>

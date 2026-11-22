@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 1280 600" role="img" aria-label="Cartão animado do TrashTime: o caminhão de coleta percorre a rota no mapa do centro de Belém, o app avisa que ele está chegando e depois que a coleta foi feita. Feito com Vue 3, Vite e SVG, funciona offline.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 1280 600" role="img" aria-label="Cartão animado do TrashTime: caminhões de coleta andando no mapa do centro de Belém; o app conta os minutos até o caminhão chegar na sua rua e avisa quando a coleta foi feita. Feito com Vue 3, Vite e SVG, funciona offline.">
   <title>TrashTime — coleta de lixo em tempo real em Belém</title>
-  <desc>Cartão animado do TrashTime: o caminhão de coleta percorre a rota no mapa do centro de Belém, o app avisa que ele está chegando e depois que a coleta foi feita. Feito com Vue 3, Vite e SVG, funciona offline.</desc>
+  <desc>Cartão animado do TrashTime: caminhões de coleta andando no mapa do centro de Belém; o app conta os minutos até o caminhão chegar na sua rua e avisa quando a coleta foi feita. Feito com Vue 3, Vite e SVG, funciona offline.</desc>
   <defs>
     <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0D1117"/>
@@ -18,8 +18,33 @@
 @media (prefers-reduced-motion: reduce){.anim{display:none}.estatico{display:inline}}
 @keyframes pulso{0%{transform:scale(1);opacity:.9}100%{transform:scale(3.2);opacity:0}}
 .pulso{transform-box:fill-box;transform-origin:center;animation:pulso 1.8s ease-out infinite}
+.pulso-forte{transform-box:fill-box;transform-origin:center;animation:pulso .8s ease-out infinite}
 @keyframes pisca{0%,100%{opacity:1}50%{opacity:.35}}
 .pisca{animation:pisca 1.6s ease-in-out infinite}
+@keyframes v0{0.00%{opacity:0}44.29%{opacity:0}46.79%{opacity:1}65.96%{opacity:1}68.46%{opacity:0}100.00%{opacity:0}}
+.v0{opacity:0;animation:v0 12s infinite}
+@keyframes v1{0.00%{opacity:1}65.13%{opacity:1}66.38%{opacity:0}97.92%{opacity:0}99.17%{opacity:1}100.00%{opacity:1}}
+.v1{opacity:0;animation:v1 12s infinite}
+@keyframes v2{0.00%{opacity:0}65.13%{opacity:0}66.38%{opacity:1}97.92%{opacity:1}99.17%{opacity:0}100.00%{opacity:0}}
+.v2{opacity:1;animation:v2 12s infinite}
+@keyframes v3{0.00%{opacity:1}54.29%{opacity:1}55.54%{opacity:0}97.92%{opacity:0}99.17%{opacity:1}100.00%{opacity:1}}
+.v3{opacity:0;animation:v3 12s infinite}
+@keyframes v4{0.00%{opacity:0}54.29%{opacity:0}55.54%{opacity:1}65.13%{opacity:1}66.38%{opacity:0}100.00%{opacity:0}}
+.v4{opacity:0;animation:v4 12s infinite}
+@keyframes v5{0.00%{opacity:0}65.13%{opacity:0}66.38%{opacity:1}97.92%{opacity:1}99.17%{opacity:0}100.00%{opacity:0}}
+.v5{opacity:1;animation:v5 12s infinite}
+@keyframes v6{0.00%{opacity:1}16.67%{opacity:1}17.92%{opacity:0}97.92%{opacity:0}99.17%{opacity:1}100.00%{opacity:1}}
+.v6{opacity:0;animation:v6 12s infinite}
+@keyframes v7{0.00%{opacity:0}16.67%{opacity:0}17.92%{opacity:1}30.00%{opacity:1}31.25%{opacity:0}100.00%{opacity:0}}
+.v7{opacity:0;animation:v7 12s infinite}
+@keyframes v8{0.00%{opacity:0}30.00%{opacity:0}31.25%{opacity:1}41.67%{opacity:1}42.92%{opacity:0}100.00%{opacity:0}}
+.v8{opacity:0;animation:v8 12s infinite}
+@keyframes v9{0.00%{opacity:0}41.67%{opacity:0}42.92%{opacity:1}54.29%{opacity:1}55.54%{opacity:0}100.00%{opacity:0}}
+.v9{opacity:0;animation:v9 12s infinite}
+@keyframes v10{0.00%{opacity:0}54.29%{opacity:0}55.54%{opacity:1}65.13%{opacity:1}66.38%{opacity:0}100.00%{opacity:0}}
+.v10{opacity:0;animation:v10 12s infinite}
+@keyframes v11{0.00%{opacity:0}65.13%{opacity:0}66.38%{opacity:1}97.92%{opacity:1}99.17%{opacity:0}100.00%{opacity:0}}
+.v11{opacity:1;animation:v11 12s infinite}
 
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
@@ -58,8 +83,6 @@
       <rect x="668" y="44" width="548" height="512" fill="#E4E9E5"/>
       <svg x="668" y="110" width="548" height="446" viewBox="92 104 360 293" preserveAspectRatio="xMidYMid slice">
       <g><defs><pattern id="quadras" width="62" height="46" patternUnits="userSpaceOnUse" patternTransform="rotate(-4) translate(28.53 22.04)"><rect fill="#EDF1EE" x="3.5" y="3.5" width="55" height="39" rx="5" /></pattern></defs><rect fill="#E4E9E5" x="-200" y="-560" width="1500" height="1560" /><rect x="-200" y="-560" width="1500" height="1560" fill="url(#quadras)" /><g stroke="#FFFFFF" fill="none" stroke-linecap="round"><path d="M-184 -380 L991 -462" stroke-width="5" /><path d="M-181 -334 L994 -416" stroke-width="6" /><path d="M-178 -288 L997 -370" stroke-width="7" /><path d="M-175 -242 L1000 -325" stroke-width="6" /><path d="M-172 -196 L1004 -279" stroke-width="5" /><path d="M-168 -151 L1007 -233" stroke-width="6" /><path d="M-165 -105 L1010 -187" stroke-width="7" /><path d="M-162 -59 L1013 -141" stroke-width="6" /><path d="M-159 -13 L1016 -95" stroke-width="5" /><path d="M-156 33 L1020 -49" stroke-width="6" /><path d="M-149 125 L1026 43" stroke-width="6" /><path d="M-146 171 L1029 88" stroke-width="5" /><path d="M-143 217 L1032 134" stroke-width="6" /><path d="M-136 308 L1039 226" stroke-width="6" /><path d="M-133 354 L1042 272" stroke-width="5" /><path d="M-130 400 L1045 318" stroke-width="6" /><path d="M-127 446 L1048 364" stroke-width="7" /><path d="M-120 538 L1055 456" stroke-width="5" /><path d="M-117 584 L1058 501" stroke-width="6" /><path d="M-114 630 L1061 547" stroke-width="7" /><path d="M-111 675 L1065 593" stroke-width="6" /><path d="M-107 721 L1068 639" stroke-width="5" /><path d="M-104 767 L1071 685" stroke-width="6" /><path d="M-101 813 L1074 731" stroke-width="7" /><path d="M-98 859 L1077 777" stroke-width="6" /><path d="M-95 905 L1081 823" stroke-width="5" /><path d="M-126 -430 L-30 946" stroke-width="7" /><path d="M-64 -435 L32 942" stroke-width="5" /><path d="M-2 -439 L94 938" stroke-width="6" /><path d="M60 -443 L156 933" stroke-width="5" /><path d="M183 -452 L280 925" stroke-width="5" /><path d="M245 -456 L342 920" stroke-width="6" /><path d="M307 -461 L403 916" stroke-width="5" /><path d="M431 -469 L527 907" stroke-width="5" /><path d="M493 -473 L589 903" stroke-width="6" /><path d="M555 -478 L651 899" stroke-width="5" /><path d="M616 -482 L713 895" stroke-width="7" /><path d="M740 -491 L836 886" stroke-width="6" /><path d="M802 -495 L898 882" stroke-width="5" /><path d="M864 -499 L960 877" stroke-width="7" /><path d="M926 -504 L1022 873" stroke-width="5" /><path d="M987 -508 L1084 869" stroke-width="6" /></g><g stroke="#FFFFFF" fill="none" stroke-linecap="round"><path d="M-152 79 L1023 -3" stroke-width="11" /><path d="M-140 262 L1036 180" stroke-width="11" /><path d="M-123 492 L1052 410" stroke-width="11" /><path d="M122 -448 L218 929" stroke-width="11" /><path d="M369 -465 L465 912" stroke-width="11" /><path d="M678 -486 L775 890" stroke-width="11" /></g><g stroke="#F3E8CE" fill="none" stroke-linecap="round"><path d="M-152 79 L1023 -3" stroke-width="1.6" /><path d="M-140 262 L1036 180" stroke-width="1.6" /><path d="M-123 492 L1052 410" stroke-width="1.6" /><path d="M122 -448 L218 929" stroke-width="1.6" /><path d="M369 -465 L465 912" stroke-width="1.6" /><path d="M678 -486 L775 890" stroke-width="1.6" /></g><path fill="#CDE3F2" d="M20 -320 C42 -232 78 -112 96 0 C104 70 132 140 138 220 C144 290 122 350 132 400 C142 448 175 470 240 482 C330 498 420 490 520 508 C620 526 700 520 780 534 C828 541 866 549 900 560 L900 780 L0 780 L0 -320 Z" /><g stroke="#C9D2CB" fill="none"><path d="M150 214 L112 211" stroke-width="7" stroke-linecap="round" /><path d="M152 240 L118 238" stroke-width="7" stroke-linecap="round" /><path d="M144 150 L108 147" stroke-width="6" stroke-linecap="round" /><path d="M143 170 L110 168" stroke-width="6" stroke-linecap="round" /><path d="M126 330 L96 327" stroke-width="6" stroke-linecap="round" /></g><g fill="#DCE3DD"><rect x="140" y="140" width="15" height="40" rx="3" transform="rotate(-4 147 160)" /><rect x="140" y="186" width="15" height="34" rx="3" transform="rotate(-4 147 203)" /><rect x="146" y="226" width="15" height="34" rx="3" transform="rotate(-4 153 243)" /></g><path fill="#C6DFCB" d="M268 566 C310 548 380 546 428 562 C466 574 470 600 432 612 C378 628 300 626 268 610 C246 598 246 576 268 566 Z" /><path stroke="#B3D4E8" d="M268 566 C310 548 380 546 428 562 C466 574 470 600 432 612 C378 628 300 626 268 610 C246 598 246 576 268 566 Z" fill="none" stroke-width="2" /><path stroke="#B3D4E8" d="M20 -320 C42 -232 78 -112 96 0 C104 70 132 140 138 220 C144 290 122 350 132 400 C142 448 175 470 240 482 C330 498 420 490 520 508 C620 526 700 520 780 534 C828 541 866 549 900 560" fill="none" stroke-width="2" /><rect fill="#D2E7D8" x="229" y="60" width="44" height="28" rx="9" transform="rotate(-4 251 74)" /><rect fill="#D2E7D8" x="418" y="93" width="44" height="28" rx="9" transform="rotate(-4 440 107)" /><rect fill="#D2E7D8" x="604" y="80" width="44" height="28" rx="9" transform="rotate(-4 626 94)" /><rect fill="#D2E7D8" x="242" y="243" width="44" height="28" rx="9" transform="rotate(-4 264 257)" /><rect fill="#D2E7D8" x="428" y="230" width="44" height="28" rx="9" transform="rotate(-4 450 244)" /><rect fill="#D2E7D8" x="375" y="372" width="44" height="28" rx="9" transform="rotate(-4 397 386)" /><rect fill="#D2E7D8" x="564" y="405" width="44" height="28" rx="9" transform="rotate(-4 586 419)" /><rect fill="#D2E7D8" x="174" y="156" width="44" height="28" rx="9" transform="rotate(-4 196 170)" /><rect fill="#D2E7D8" x="296" y="-74" width="44" height="28" rx="9" transform="rotate(-4 318 -60)" /><rect fill="#D2E7D8" x="482" y="-104" width="44" height="28" rx="9" transform="rotate(-4 504 -90)" /><rect fill="#D2E7D8" x="668" y="-60" width="44" height="28" rx="9" transform="rotate(-4 690 -46)" /><rect fill="#D2E7D8" x="210" y="-190" width="44" height="28" rx="9" transform="rotate(-4 232 -176)" /><rect fill="#D2E7D8" x="392" y="-228" width="44" height="28" rx="9" transform="rotate(-4 414 -214)" /><rect fill="#D2E7D8" x="578" y="-196" width="44" height="28" rx="9" transform="rotate(-4 600 -182)" /><rect fill="#D2E7D8" x="764" y="-152" width="44" height="28" rx="9" transform="rotate(-4 786 -138)" /><rect fill="#D2E7D8" x="716" y="168" width="44" height="28" rx="9" transform="rotate(-4 738 182)" /><rect fill="#D2E7D8" x="802" y="300" width="44" height="28" rx="9" transform="rotate(-4 824 314)" /><rect fill="#D2E7D8" x="640" y="300" width="44" height="28" rx="9" transform="rotate(-4 662 314)" /><rect fill="#D2E7D8" x="836" y="60" width="44" height="28" rx="9" transform="rotate(-4 858 74)" /><rect fill="#D2E7D8" x="318" y="404" width="44" height="28" rx="9" transform="rotate(-4 340 418)" /><rect fill="#D2E7D8" x="506" y="430" width="44" height="28" rx="9" transform="rotate(-4 528 444)" /><rect fill="#D2E7D8" x="196" y="366" width="44" height="28" rx="9" transform="rotate(-4 218 380)" /></g>
-    </svg>
-      <svg x="668" y="110" width="548" height="446" viewBox="92 104 360 293" preserveAspectRatio="xMidYMid slice">
       <g fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M156.9 57.2 L342.5 44.3 L339.2 -1.6 L277.4 2.7 L274.2 -43.2 L150.5 -34.5 L156.9 57.2" stroke="#B9C4BC" stroke-width="3"/>
         <path d="M163.3 149.0 L348.9 136.0 L345.7 90.2 L160.1 103.1 L163.3 149.0" stroke="#B9C4BC" stroke-width="3"/>
@@ -74,7 +97,40 @@
       <text x="245" y="124.6" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2" fill="#5B6B60" fill-opacity=".75">REDUTO</text>
       <text x="251.4" y="212.3" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2" fill="#5B6B60" fill-opacity=".75">CAMPINA</text>
       <text x="261" y="316" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2" fill="#5B6B60" fill-opacity=".75">CIDADE VELHA</text>
+      <g class="anim">
+        <g opacity=".8"><animateMotion path="M173.0 286.7 L296.6 278.0 L299.9 323.9 L238.0 328.2 L241.2 374.1 L179.4 378.5 L173.0 286.7" rotate="auto" dur="26s" repeatCount="indefinite" begin="-7s"/><g transform="scale(0.8)">
+        <ellipse cx="0" cy="1.5" rx="15" ry="9" fill="#0F1D14" fill-opacity=".18"/>
+        <rect x="-13" y="-6.5" width="17" height="13" rx="2.2" fill="#6B8F78" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="4.5" y="-5.5" width="8.5" height="11" rx="2.6" fill="#8FB39C" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="9.6" y="-4" width="2.2" height="8" rx="1" fill="#CDE3F2"/>
+        <path d="M-10 -3 h11 M-10 0 h11 M-10 3 h11" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1"/>
+      </g></g>
+        <g opacity=".8"><animateMotion path="M163.3 149.0 L348.9 136.0 L345.7 90.2 L160.1 103.1 L163.3 149.0" rotate="auto" dur="34s" repeatCount="indefinite" begin="-15s"/><g transform="scale(0.8)">
+        <ellipse cx="0" cy="1.5" rx="15" ry="9" fill="#0F1D14" fill-opacity=".18"/>
+        <rect x="-13" y="-6.5" width="17" height="13" rx="2.2" fill="#6B8F78" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="4.5" y="-5.5" width="8.5" height="11" rx="2.6" fill="#8FB39C" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="9.6" y="-4" width="2.2" height="8" rx="1" fill="#CDE3F2"/>
+        <path d="M-10 -3 h11 M-10 0 h11 M-10 3 h11" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1"/>
+      </g></g>
+      </g>
+      <g class="estatico">
+        <g opacity=".8" transform="translate(173 286.7)"><g transform="scale(0.8)">
+        <ellipse cx="0" cy="1.5" rx="15" ry="9" fill="#0F1D14" fill-opacity=".18"/>
+        <rect x="-13" y="-6.5" width="17" height="13" rx="2.2" fill="#6B8F78" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="4.5" y="-5.5" width="8.5" height="11" rx="2.6" fill="#8FB39C" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="9.6" y="-4" width="2.2" height="8" rx="1" fill="#CDE3F2"/>
+        <path d="M-10 -3 h11 M-10 0 h11 M-10 3 h11" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1"/>
+      </g></g>
+        <g opacity=".8" transform="translate(163.3 149)"><g transform="scale(0.8)">
+        <ellipse cx="0" cy="1.5" rx="15" ry="9" fill="#0F1D14" fill-opacity=".18"/>
+        <rect x="-13" y="-6.5" width="17" height="13" rx="2.2" fill="#6B8F78" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="4.5" y="-5.5" width="8.5" height="11" rx="2.6" fill="#8FB39C" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="9.6" y="-4" width="2.2" height="8" rx="1" fill="#CDE3F2"/>
+        <path d="M-10 -3 h11 M-10 0 h11 M-10 3 h11" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1"/>
+      </g></g>
+      </g>
       <g class="pulso"><circle cx="225" cy="176" r="7" fill="#2563EB" fill-opacity=".25"/></g>
+      <g class="v0"><g class="pulso-forte"><circle cx="225" cy="176" r="7" fill="#2563EB" fill-opacity=".45"/></g></g>
       <circle cx="225" cy="176" r="5.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="2"/>
       <text x="234" y="170" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1E3A8A">Você</text>
       <g class="anim">
@@ -82,25 +138,22 @@
           <animate attributeName="stroke-dashoffset" values="464.1;0;0" keyTimes="0;0.83;1" dur="12s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.95;1" dur="12s" repeatCount="indefinite"/>
         </path>
-        <g>
-          <animateMotion path="M169.7 240.8 L355.3 227.8 L352.1 181.9 L166.5 194.9 L169.7 240.8" keyPoints="0;1;1" keyTimes="0;0.83;1" calcMode="linear" dur="12s" repeatCount="indefinite"/>
-          <g>
-        <circle r="15" fill="#1F7A45" fill-opacity=".18"/>
-        <rect x="-11" y="-11" width="22" height="22" rx="6" fill="#1F7A45" stroke="#FFFFFF" stroke-width="2"/>
-        <rect x="-7" y="-4.5" width="8.5" height="7" rx="1.2" fill="#FFFFFF"/>
-        <path d="M2.5 -2.5 h3 l2.5 3 v2.5 h-5.5 z" fill="#FFFFFF"/>
-        <circle cx="-4" cy="4.4" r="1.9" fill="#FFFFFF"/><circle cx="4.6" cy="4.4" r="1.9" fill="#FFFFFF"/>
-      </g>
-        </g>
+        <g><animateMotion path="M169.7 240.8 L355.3 227.8 L352.1 181.9 L166.5 194.9 L169.7 240.8" rotate="auto" dur="12s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.83;1" calcMode="linear"/><g transform="scale(1.15)">
+        <ellipse cx="0" cy="1.5" rx="15" ry="9" fill="#0F1D14" fill-opacity=".18"/>
+        <rect x="-13" y="-6.5" width="17" height="13" rx="2.2" fill="#1F7A45" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="4.5" y="-5.5" width="8.5" height="11" rx="2.6" fill="#2FA85A" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="9.6" y="-4" width="2.2" height="8" rx="1" fill="#CDE3F2"/>
+        <path d="M-10 -3 h11 M-10 0 h11 M-10 3 h11" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1"/>
+      </g></g>
       </g>
       <g class="estatico">
         <path d="M169.7 240.8 L355.3 227.8 L352.1 181.9 L166.5 194.9 L169.7 240.8" fill="none" stroke="#2FA85A" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <g transform="translate(169.7 240.8)"><g>
-        <circle r="15" fill="#1F7A45" fill-opacity=".18"/>
-        <rect x="-11" y="-11" width="22" height="22" rx="6" fill="#1F7A45" stroke="#FFFFFF" stroke-width="2"/>
-        <rect x="-7" y="-4.5" width="8.5" height="7" rx="1.2" fill="#FFFFFF"/>
-        <path d="M2.5 -2.5 h3 l2.5 3 v2.5 h-5.5 z" fill="#FFFFFF"/>
-        <circle cx="-4" cy="4.4" r="1.9" fill="#FFFFFF"/><circle cx="4.6" cy="4.4" r="1.9" fill="#FFFFFF"/>
+        <g transform="translate(169.7 240.8)"><g transform="scale(1.15)">
+        <ellipse cx="0" cy="1.5" rx="15" ry="9" fill="#0F1D14" fill-opacity=".18"/>
+        <rect x="-13" y="-6.5" width="17" height="13" rx="2.2" fill="#1F7A45" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="4.5" y="-5.5" width="8.5" height="11" rx="2.6" fill="#2FA85A" stroke="#FFFFFF" stroke-width="1.6"/>
+        <rect x="9.6" y="-4" width="2.2" height="8" rx="1" fill="#CDE3F2"/>
+        <path d="M-10 -3 h11 M-10 0 h11 M-10 3 h11" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="1"/>
       </g></g>
       </g>
     </svg>
@@ -111,31 +164,25 @@
       <rect x="-9" y="-5.5" width="11" height="9" rx="1.5" fill="#FFFFFF"/><path d="M3 -3 h4 l3.5 4 v3.5 h-7.5 z" fill="#FFFFFF"/>
       <circle cx="-5" cy="5.5" r="2.4" fill="#FFFFFF"/><circle cx="6" cy="5.5" r="2.4" fill="#FFFFFF"/></g>
       <text x="738" y="74" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#14532D">TrashTime</text>
-      <text x="738" y="96" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#4B5B50">Campina · caminhão CT-104</text>
+      <text x="738" y="96" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#4B5B50">Campina · 3 caminhões na região</text>
       <rect x="1088" y="63" width="108" height="30" rx="15" fill="#E8F5EC"/>
       <circle class="pisca" cx="1106" cy="78" r="5" fill="#2FA85A"/>
       <text x="1118" y="84" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#1F7A45">Em rota</text>
       
-    <g class="anim">
-      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4596;0.4804;0.6304;0.6513;1" dur="12s" repeatCount="indefinite"/><rect x="688" y="474" width="508" height="66" rx="16" fill="#0F1D14" fill-opacity=".12"/>
+      <rect x="688" y="474" width="508" height="66" rx="16" fill="#0F1D14" fill-opacity=".12"/>
       <rect x="688" y="470" width="508" height="66" rx="16" fill="#FFFFFF"/>
       <circle cx="724" cy="503" r="20" fill="#E8F5EC"/>
-      <g transform="translate(724 503)"><g transform="scale(1.25)"><rect x="-7" y="-4.5" width="8.5" height="7" rx="1.2" fill="#1F7A45"/><path d="M2.5 -2.5 h3 l2.5 3 v2.5 h-5.5 z" fill="#1F7A45"/><circle cx="-4" cy="4.4" r="1.9" fill="#1F7A45"/><circle cx="4.6" cy="4.4" r="1.9" fill="#1F7A45"/></g></g>
-      <text x="758" y="499" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0F1D14">Caminhão chegando na sua rua</text>
-      <text x="758" y="521" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" fill="#4B5B50">CT-104 · cerca de 2 minutos</text></g>
-      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6554;0.6763;0.9500;0.9708;1" dur="12s" repeatCount="indefinite"/><rect x="688" y="474" width="508" height="66" rx="16" fill="#0F1D14" fill-opacity=".12"/>
-      <rect x="688" y="470" width="508" height="66" rx="16" fill="#FFFFFF"/>
-      <circle cx="724" cy="503" r="20" fill="#E8F5EC"/>
-      <g transform="translate(724 503)"><path d="M-7 0 l5 5 l9 -10" fill="none" stroke="#1F7A45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
-      <text x="758" y="499" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0F1D14">Coleta feita na sua rua</text>
-      <text x="758" y="521" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" fill="#4B5B50">O CT-104 passou às 7h42</text></g>
-    </g>
-    <g class="estatico"><rect x="688" y="474" width="508" height="66" rx="16" fill="#0F1D14" fill-opacity=".12"/>
-      <rect x="688" y="470" width="508" height="66" rx="16" fill="#FFFFFF"/>
-      <circle cx="724" cy="503" r="20" fill="#E8F5EC"/>
-      <g transform="translate(724 503)"><path d="M-7 0 l5 5 l9 -10" fill="none" stroke="#1F7A45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
-      <text x="758" y="499" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0F1D14">Coleta feita na sua rua</text>
-      <text x="758" y="521" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" fill="#4B5B50">O CT-104 passou às 7h42</text></g>
+      <g class="v1" transform="translate(724 503)"><g><g transform="scale(1.25)"><rect x="-7" y="-4.5" width="8.5" height="7" rx="1.2" fill="#1F7A45"/><path d="M2.5 -2.5 h3 l2.5 3 v2.5 h-5.5 z" fill="#1F7A45"/><circle cx="-4" cy="4.4" r="1.9" fill="#1F7A45"/><circle cx="4.6" cy="4.4" r="1.9" fill="#1F7A45"/></g></g></g>
+      <g class="v2" transform="translate(724 503)"><g><path d="M-7 0 l5 5 l9 -10" fill="none" stroke="#1F7A45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+      <text class="v3" x="758" y="499" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0F1D14">Caminhão a caminho</text>
+      <text class="v4" x="758" y="499" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1F7A45">Chegando na sua rua!</text>
+      <text class="v5" x="758" y="499" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0F1D14">Coleta feita na sua rua</text>
+      <text class="v6" x="758" y="521" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#4B5B50">CT-104 · chega em 4 min</text>
+      <text class="v7" x="758" y="521" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#4B5B50">CT-104 · chega em 3 min</text>
+      <text class="v8" x="758" y="521" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#4B5B50">CT-104 · chega em 2 min</text>
+      <text class="v9" x="758" y="521" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#4B5B50">CT-104 · chega em 1 min</text>
+      <text class="v10" x="758" y="521" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#4B5B50">Hora de pôr o lixo na calçada</text>
+      <text class="v11" x="758" y="521" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#4B5B50">O CT-104 passou às 7h42</text>
     </g>
     <rect x="668.5" y="44.5" width="547" height="511" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity=".14"/>
   </g>

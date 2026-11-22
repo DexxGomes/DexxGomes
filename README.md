@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./digitando.svg" alt="Desenvolvedor Python e JavaScript · Estudante de Ciência da Computação · Técnico em Redes de Computadores · Em busca de estágio em tecnologia" />
+  <img src="./digitando.svg" alt="Desenvolvedor Python e JavaScript · TypeScript, Node.js e React · Arquitetura de Software · Aprendendo a programar com agentes de IA · Estudante de Ciência da Computação" />
 </p>
 
 <p align="center">
@@ -17,8 +17,9 @@
 ### 👨‍💻 Sobre mim
 
 Sou estudante de **Ciência da Computação na UNAMA**, apaixonado por programação, com formação técnica em
-**Redes de Computadores** e conhecimento em **Python e JavaScript**. Atualmente estou estudando **TypeScript, Node.js,
-React, Arquitetura de Software e desenvolvimento com agentes de IA** no ONP (O Novo Programador). Busco uma oportunidade de **estágio ou início de carreira em tecnologia**, onde eu possa
+**Redes de Computadores** e conhecimento em **Python e JavaScript**. Já coloquei no ar um sistema completo, o
+**[LocCar](https://github.com/DexxGomes/loccar-portfolio)**, feito com **Node.js, React, PostgreSQL e IA**, e sigo estudando
+**TypeScript, Arquitetura de Software e desenvolvimento com agentes de IA** no ONP (O Novo Programador). Busco uma oportunidade de **estágio ou início de carreira em tecnologia**, onde eu possa
 aplicar o que aprendi em cursos e projetos pessoais e continuar evoluindo como desenvolvedor.
 
 ```python
@@ -28,9 +29,10 @@ class Andre:
         self.cidade = "Belém/PA"
         self.curso = "Ciência da Computação — UNAMA (conclusão prevista: 2028)"
         self.linguagens = ["Python", "JavaScript"]
-        self.web = ["HTML", "CSS"]
-        self.banco_de_dados = ["SQL"]
-        self.estudando_agora = ["TypeScript", "Node.js", "React", "Arquitetura de Software",
+        self.front_end = ["React", "Vue.js", "HTML", "CSS", "Tailwind"]
+        self.back_end = ["Node.js", "Express"]
+        self.banco_de_dados = ["PostgreSQL", "Supabase"]
+        self.estudando_agora = ["TypeScript", "Arquitetura de Software",
                                 "Agentes de IA (Claude Code, Google Antigravity, MCP)"]
         self.idiomas = {"Português": "nativo", "Inglês": "avançado"}
         self.objetivo = "Estágio ou início de carreira em tecnologia"
@@ -54,11 +56,24 @@ eu = Andre()
 **Back-end e front-end**
 <p>
   <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
 </p>
 
-**IA e agentes** <sub>(em estudo)</sub>
+**Banco de dados e nuvem**
 <p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
+
+**IA e agentes**
+<p>
+  <img src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude API" />
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
   <img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity" />
   <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP" />
@@ -74,12 +89,20 @@ eu = Andre()
   <img src="https://img.shields.io/badge/AutoCAD_2D_e_3D-E51050?style=for-the-badge&logo=autodesk&logoColor=white" alt="AutoCAD 2D e 3D" />
 </p>
 
-### 🎮 Projetos
+### 🚀 Projetos
+
+<p>
+  <a href="https://github.com/DexxGomes/loccar-portfolio"><img src="./projetos/loccar.svg" width="100%" alt="LocCar — SaaS de reservas de carro pelo WhatsApp: um cliente pede um carro, a IA (Claude) mostra os carros livres e faz a pré-reserva, e o dono aprova no painel web. Feito com Node.js, React e PostgreSQL." /></a>
+</p>
+
+<p>
+  <a href="https://github.com/DexxGomes/TrashTime"><img src="./projetos/trashtime.svg" width="100%" alt="TrashTime — aplicativo web que acompanha em tempo real a coleta de lixo no centro de Belém, com mapa desenhado em SVG, feito com Vue 3 e Vite." /></a>
+  <br />
+  <a href="https://trashtime.vercel.app"><b>▶ Abrir o app</b></a> &nbsp;·&nbsp; <a href="https://github.com/DexxGomes/TrashTime">Ver o código</a>
+</p>
 
 - **Jogos em Python** — jogos simples que desenvolvi como projetos pessoais para praticar lógica de programação e
   aprofundar meus conhecimentos na linguagem.
-- **[TrashTime](https://github.com/DexxGomes/TrashTime)** — aplicativo web que acompanha em tempo real a coleta de lixo no centro de Belém, com mapa desenhado em SVG, feito com Vue 3 e Vite.
-- **[LocCar](https://github.com/DexxGomes/loccar-portfolio)** — SaaS de reservas de carros pelo WhatsApp: uma IA (Claude) atende o cliente e faz a pré-reserva, e o dono aprova num painel web, feito com Node.js, React e PostgreSQL.
 
 ### 🎓 Formação
 
